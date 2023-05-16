@@ -1,0 +1,66 @@
+body {
+	background-image: url('../images/bg_all.jpg');
+}
+
+.sma {
+	font-family: 'mulisemibold';
+	font-size: 18px;
+}
+
+.visi {
+	font-family: 'mulilight';
+	font-size: 14px;
+}
+
+.nav-primary {
+	background-color: #1E90FF;
+}
+.navlink {
+	border-bottom: 1px solid #1E90FF;
+	transition: .35s;
+}
+.navlink.active {
+	border-bottom: 1px solid #fff;
+}
+.navlink:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.hero img{
+	width: 100%;
+}
+
+.title {
+	font-family: 'mulisemibold';
+	font-size: 20px;
+	padding-bottom: 7.5px;
+	border-bottom: 5px solid #ddd
+}
+
+span.tgl {
+	font-size: 12px;
+	font-family: 'mulilight';
+	color: #888;
+	display: block;
+}
+
+
+span.judul a {
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'mulisemibold';
+	color: #1E90FF;
+	display: inline-block;
+	transition: .35s;
+}
+
+span.judul a:hover {
+	background-color: #1E90FF;
+	color: white;
+}
+
+.footer {
+	background-color: #1E90FF;
+	padding: 15px 15px 15px 30px;
+	text-align: center;
+}
